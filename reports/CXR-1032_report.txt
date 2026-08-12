@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1032
+  Name         : Saranya Iyer
+  Age / Gender : 66 years / Female
+  DOB          : 23/04/1959
+  Ward / Bed   : Ward-C3
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-02-19
+  Time         : 11:06
+  Image Quality: Excellent
+  Technique    : 128 kVp  |  6.7 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1032-4727
+
+CLINICAL INDICATION
+  Routine health checkup; Pre-operative screening; Mild intermittent cough.
+
+FINDINGS
+  Lungs are clear bilaterally with no focal consolidation or infiltrate.
+  Cardiac silhouette is within normal limits.
+  No pleural effusion or pneumothorax identified.
+  Bony thorax and soft tissues are unremarkable.
+
+IMPRESSION
+  No acute cardiopulmonary abnormality identified. Lungs are clear.
+
+SEVERITY / SUBTYPE
+  None
+
+RECOMMENDATION
+  Routine follow-up as clinically indicated.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-02-19
+==========================================

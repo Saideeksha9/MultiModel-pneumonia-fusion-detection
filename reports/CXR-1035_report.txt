@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1035
+  Name         : Suresh Joshi
+  Age / Gender : 53 years / Male
+  DOB          : 17/04/1972
+  Ward / Bed   : Ward-C8
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-02-08
+  Time         : 14:31
+  Image Quality: Poor
+  Technique    : 130 kVp  |  6.3 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1035-2480
+
+CLINICAL INDICATION
+  Diminished breath sounds on affected side; Sudden onset chest pain; Acute dyspnoea.
+
+FINDINGS
+  Visible pleural line in the right hemithorax.
+  Absent lung markings peripheral to the pleural line.
+  Moderate right-sided pneumothorax estimated at 30%.
+  No mediastinal shift; trachea midline.
+
+IMPRESSION
+  Pneumothorax identified. Urgent clinical assessment required. Consider chest drain if haemodynamically compromised.
+
+SEVERITY / SUBTYPE
+  Tension
+
+RECOMMENDATION
+  Urgent review; aspiration or chest drain insertion; repeat CXR in 6 hours.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-02-08
+==========================================

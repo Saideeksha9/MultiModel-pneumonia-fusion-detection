@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1011
+  Name         : Ramesh Pillai
+  Age / Gender : 19 years / Male
+  DOB          : 25/04/2006
+  Ward / Bed   : Ward-C14
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-03-14
+  Time         : 15:30
+  Image Quality: Excellent
+  Technique    : 115 kVp  |  4.3 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1011-9609
+
+CLINICAL INDICATION
+  Exertional dyspnoea; Chronic productive cough >3 months; Wheezing.
+
+FINDINGS
+  Hyperinflation of both lungs with flattening of the hemidiaphragms.
+  Increased AP diameter consistent with barrel-chest deformity.
+  Bullous changes in the upper lobes bilaterally.
+  Heart is elongated and vertical in configuration.
+
+IMPRESSION
+  Radiographic changes consistent with COPD/emphysema. Pulmonary function testing and respiratory specialist review advised.
+
+SEVERITY / SUBTYPE
+  Mild
+
+RECOMMENDATION
+  Spirometry; inhaled bronchodilators; smoking cessation; pulmonologist referral.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-03-14
+==========================================

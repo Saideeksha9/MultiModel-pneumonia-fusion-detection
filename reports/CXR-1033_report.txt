@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1033
+  Name         : Rajesh Sharma
+  Age / Gender : 71 years / Female
+  DOB          : 04/07/1954
+  Ward / Bed   : Ward-D15
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-06-21
+  Time         : 15:45
+  Image Quality: Good
+  Technique    : 126 kVp  |  7.8 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1033-6094
+
+CLINICAL INDICATION
+  Chronic productive cough >3 months; Exertional dyspnoea; Wheezing.
+
+FINDINGS
+  Hyperinflation of both lungs with flattening of the hemidiaphragms.
+  Increased AP diameter consistent with barrel-chest deformity.
+  Bullous changes in the upper lobes bilaterally.
+  Heart is elongated and vertical in configuration.
+
+IMPRESSION
+  Radiographic changes consistent with COPD/emphysema. Pulmonary function testing and respiratory specialist review advised.
+
+SEVERITY / SUBTYPE
+  Mild
+
+RECOMMENDATION
+  Spirometry; inhaled bronchodilators; smoking cessation; pulmonologist referral.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-06-21
+==========================================

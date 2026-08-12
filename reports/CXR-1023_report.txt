@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1023
+  Name         : Lakshmi Krishnan
+  Age / Gender : 59 years / Female
+  DOB          : 15/08/1966
+  Ward / Bed   : Ward-A8
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-11-07
+  Time         : 16:30
+  Image Quality: Excellent
+  Technique    : 119 kVp  |  5.1 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1023-3340
+
+CLINICAL INDICATION
+  Fever and dry cough; Fatigue; Anosmia and ageusia.
+
+FINDINGS
+  Multifocal bilateral ground-glass opacities.
+  Peripheral and subpleural distribution of opacities.
+  Bilateral lower lobe involvement greater than upper lobes.
+  No significant pleural effusion.
+
+IMPRESSION
+  Imaging pattern highly suggestive of COVID-19 pneumonia. RT-PCR confirmation strongly advised. Monitor for disease progression.
+
+SEVERITY / SUBTYPE
+  Critical
+
+RECOMMENDATION
+  RT-PCR confirmation; CT chest within 48-72 hours; monitor oxygen saturation.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-11-07
+==========================================

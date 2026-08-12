@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1040
+  Name         : Saranya Singh
+  Age / Gender : 56 years / Female
+  DOB          : 10/10/1969
+  Ward / Bed   : Ward-A6
+  Hospital     : City General Hospital
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-10-02
+  Time         : 17:47
+  Image Quality: Good
+  Technique    : 118 kVp  |  6.0 mAs  |  SID 180 cm
+  Referring    : Dr. P. Patel
+  Accession No.: ACC-1040-8606
+
+CLINICAL INDICATION
+  Orthopnoea; Diaphoresis; Pink frothy sputum.
+
+FINDINGS
+  Bilateral perihilar airspace opacities in a bat-wing distribution.
+  Kerley B lines noted at the lung bases bilaterally.
+  Small bilateral pleural effusions.
+  Cardiomegaly present with cardiothoracic ratio > 0.5.
+
+IMPRESSION
+  Radiographic features consistent with acute pulmonary oedema. Urgent clinical management required.
+
+SEVERITY / SUBTYPE
+  Mild
+
+RECOMMENDATION
+  IV diuretics; oxygen therapy; ICU monitoring; urgent cardiac evaluation.
+
+REPORTING RADIOLOGIST
+  Dr. B. Krishnan
+  Digitally signed — 2024-10-02
+==========================================

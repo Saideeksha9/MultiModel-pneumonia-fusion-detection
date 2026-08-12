@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1066
+  Name         : Harish Patel
+  Age / Gender : 29 years / Female
+  DOB          : 04/12/1996
+  Ward / Bed   : Ward-C20
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-12-12
+  Time         : 10:35
+  Image Quality: Adequate
+  Technique    : 113 kVp  |  4.5 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1066-8311
+
+CLINICAL INDICATION
+  Shortness of breath; Pleuritic chest pain; Productive cough with purulent sputum.
+
+FINDINGS
+  Right lower lobe consolidation with air bronchograms.
+  Increased opacity in the right base consistent with lobar pneumonia.
+  Blurring of the right hemidiaphragm.
+  No pleural effusion identified.
+
+IMPRESSION
+  Radiographic findings consistent with bacterial pneumonia. Clinical correlation and antibiotic therapy recommended. Follow-up CXR in 4-6 weeks advised.
+
+SEVERITY / SUBTYPE
+  Mild
+
+RECOMMENDATION
+  Antibiotic therapy; repeat CXR in 4-6 weeks post-treatment.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-12-12
+==========================================

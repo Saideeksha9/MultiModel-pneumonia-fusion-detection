@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1060
+  Name         : Vikram Singh
+  Age / Gender : 74 years / Male
+  DOB          : 28/06/1951
+  Ward / Bed   : Ward-B20
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-02-22
+  Time         : 13:34
+  Image Quality: Excellent
+  Technique    : 122 kVp  |  3.7 mAs  |  SID 180 cm
+  Referring    : Dr. R. Sharma
+  Accession No.: ACC-1060-1301
+
+CLINICAL INDICATION
+  Tachycardia; Diminished breath sounds on affected side; Sudden onset chest pain.
+
+FINDINGS
+  Visible pleural line in the right hemithorax.
+  Absent lung markings peripheral to the pleural line.
+  Moderate right-sided pneumothorax estimated at 30%.
+  No mediastinal shift; trachea midline.
+
+IMPRESSION
+  Pneumothorax identified. Urgent clinical assessment required. Consider chest drain if haemodynamically compromised.
+
+SEVERITY / SUBTYPE
+  Tension
+
+RECOMMENDATION
+  Urgent review; aspiration or chest drain insertion; repeat CXR in 6 hours.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-02-22
+==========================================

@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1037
+  Name         : Prakash Verma
+  Age / Gender : 41 years / Male
+  DOB          : 07/12/1984
+  Ward / Bed   : Ward-B10
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-08-09
+  Time         : 17:48
+  Image Quality: Adequate
+  Technique    : 113 kVp  |  7.0 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1037-1417
+
+CLINICAL INDICATION
+  Reduced breath sounds at base; Fever (if infected); Post-operative state.
+
+FINDINGS
+  Linear/discoid atelectasis at the left base.
+  Mild volume loss in the left lower lobe.
+  Slight elevation of the left hemidiaphragm.
+  No focal consolidation or pleural effusion.
+
+IMPRESSION
+  Plate-like atelectasis at the lung base. Chest physiotherapy recommended. Repeat imaging if symptoms persist.
+
+SEVERITY / SUBTYPE
+  Lobar
+
+RECOMMENDATION
+  Incentive spirometry; physiotherapy; bronchoscopy if lobar and persistent.
+
+REPORTING RADIOLOGIST
+  Dr. B. Krishnan
+  Digitally signed — 2024-08-09
+==========================================

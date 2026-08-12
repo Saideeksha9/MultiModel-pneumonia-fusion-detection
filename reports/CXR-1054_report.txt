@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1054
+  Name         : Vikram Kumar
+  Age / Gender : 79 years / Male
+  DOB          : 08/07/1946
+  Ward / Bed   : Ward-D10
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-10-12
+  Time         : 17:18
+  Image Quality: Excellent
+  Technique    : 122 kVp  |  3.6 mAs  |  SID 180 cm
+  Referring    : Dr. V. Gupta
+  Accession No.: ACC-1054-7084
+
+CLINICAL INDICATION
+  Reduced breath sounds; Progressive dyspnoea; Dullness on percussion.
+
+FINDINGS
+  Large left-sided pleural effusion.
+  Near-complete opacification of the left hemithorax.
+  Contralateral mediastinal shift noted.
+  Right lung is clear.
+
+IMPRESSION
+  Pleural effusion identified. Further evaluation with ultrasound-guided thoracocentesis may be warranted if symptomatic.
+
+SEVERITY / SUBTYPE
+  Large
+
+RECOMMENDATION
+  Ultrasound-guided thoracocentesis; send fluid for LDH, protein, cytology, culture.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-10-12
+==========================================

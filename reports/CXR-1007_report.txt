@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1007
+  Name         : Sanjay Bhat
+  Age / Gender : 72 years / Male
+  DOB          : 18/12/1953
+  Ward / Bed   : Ward-B3
+  Hospital     : City General Hospital
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-12-07
+  Time         : 12:25
+  Image Quality: Adequate
+  Technique    : 124 kVp  |  7.4 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1007-6511
+
+CLINICAL INDICATION
+  Bilateral pedal oedema; Paroxysmal nocturnal dyspnoea; Orthopnoea.
+
+FINDINGS
+  Markedly enlarged cardiac silhouette with cardiothoracic ratio > 0.55.
+  Prominent pulmonary vasculature suggesting pulmonary venous hypertension.
+  Bilateral perihilar haziness.
+  No pleural effusion.
+
+IMPRESSION
+  Cardiomegaly with features of pulmonary venous hypertension. Echocardiography and cardiology referral recommended.
+
+SEVERITY / SUBTYPE
+  Severe
+
+RECOMMENDATION
+  Echocardiography; BNP/NT-proBNP; cardiology referral.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-12-07
+==========================================

@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1012
+  Name         : Ganesh Verma
+  Age / Gender : 80 years / Male
+  DOB          : 07/05/1945
+  Ward / Bed   : Ward-B2
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-04-02
+  Time         : 17:47
+  Image Quality: Adequate
+  Technique    : 111 kVp  |  2.3 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1012-2196
+
+CLINICAL INDICATION
+  Prolonged cough >3 weeks; Haemoptysis; Drenching night sweats.
+
+FINDINGS
+  Bilateral upper lobe fibronodular opacities.
+  Cavitary lesion in the left upper lobe.
+  Scattered miliary nodules in both lung fields.
+  Mild right-sided pleural thickening.
+
+IMPRESSION
+  Radiographic findings suspicious for pulmonary tuberculosis. Urgent sputum AFB smear, culture, and NAAT testing recommended. Notify public health.
+
+SEVERITY / SUBTYPE
+  Miliary
+
+RECOMMENDATION
+  Sputum AFB x3; start DOTS; contact tracing; report to public health authority.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-04-02
+==========================================

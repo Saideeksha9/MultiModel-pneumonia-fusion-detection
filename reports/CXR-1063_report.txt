@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1063
+  Name         : Prakash Reddy
+  Age / Gender : 31 years / Female
+  DOB          : 17/04/1994
+  Ward / Bed   : Ward-D15
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-10-02
+  Time         : 16:19
+  Image Quality: Excellent
+  Technique    : 111 kVp  |  8.0 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1063-8763
+
+CLINICAL INDICATION
+  Pink frothy sputum; Orthopnoea; Cyanosis.
+
+FINDINGS
+  Bilateral perihilar airspace opacities in a bat-wing distribution.
+  Kerley B lines noted at the lung bases bilaterally.
+  Small bilateral pleural effusions.
+  Cardiomegaly present with cardiothoracic ratio > 0.5.
+
+IMPRESSION
+  Radiographic features consistent with acute pulmonary oedema. Urgent clinical management required.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  IV diuretics; oxygen therapy; ICU monitoring; urgent cardiac evaluation.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-10-02
+==========================================

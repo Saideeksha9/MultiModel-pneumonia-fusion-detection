@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1068
+  Name         : Suresh Sharma
+  Age / Gender : 41 years / Female
+  DOB          : 23/05/1984
+  Ward / Bed   : Ward-B13
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-06-12
+  Time         : 08:11
+  Image Quality: Poor
+  Technique    : 112 kVp  |  2.9 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1068-2063
+
+CLINICAL INDICATION
+  Weight loss; Prolonged cough >3 weeks; Haemoptysis.
+
+FINDINGS
+  Bilateral upper lobe fibronodular opacities.
+  Cavitary lesion in the left upper lobe.
+  Scattered miliary nodules in both lung fields.
+  Mild right-sided pleural thickening.
+
+IMPRESSION
+  Radiographic findings suspicious for pulmonary tuberculosis. Urgent sputum AFB smear, culture, and NAAT testing recommended. Notify public health.
+
+SEVERITY / SUBTYPE
+  Primary
+
+RECOMMENDATION
+  Sputum AFB x3; start DOTS; contact tracing; report to public health authority.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-06-12
+==========================================

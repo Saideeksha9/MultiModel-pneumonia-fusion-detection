@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1041
+  Name         : Arun Verma
+  Age / Gender : 78 years / Female
+  DOB          : 02/04/1947
+  Ward / Bed   : Ward-D4
+  Hospital     : City General Hospital
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-05-23
+  Time         : 12:44
+  Image Quality: Good
+  Technique    : 118 kVp  |  6.7 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1041-3996
+
+CLINICAL INDICATION
+  Dyspnoea on exertion; Bilateral pedal oedema; Orthopnoea.
+
+FINDINGS
+  Markedly enlarged cardiac silhouette with cardiothoracic ratio > 0.55.
+  Prominent pulmonary vasculature suggesting pulmonary venous hypertension.
+  Bilateral perihilar haziness.
+  No pleural effusion.
+
+IMPRESSION
+  Cardiomegaly with features of pulmonary venous hypertension. Echocardiography and cardiology referral recommended.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  Echocardiography; BNP/NT-proBNP; cardiology referral.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-05-23
+==========================================

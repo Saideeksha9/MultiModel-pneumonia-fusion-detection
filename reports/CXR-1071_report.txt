@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1071
+  Name         : Prakash Iyer
+  Age / Gender : 55 years / Female
+  DOB          : 04/01/1970
+  Ward / Bed   : Ward-D2
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-08-24
+  Time         : 14:11
+  Image Quality: Good
+  Technique    : 126 kVp  |  5.4 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1071-9362
+
+CLINICAL INDICATION
+  Myalgia and fatigue; Low-grade fever; Mild dyspnoea.
+
+FINDINGS
+  Bilateral interstitial infiltrates with peribronchial thickening.
+  Diffuse ground-glass haziness in both lung fields.
+  No focal lobar consolidation.
+  Cardiac silhouette is normal in size.
+
+IMPRESSION
+  Bilateral interstitial pattern consistent with viral pneumonia. Correlate with clinical and serological findings.
+
+SEVERITY / SUBTYPE
+  Mild
+
+RECOMMENDATION
+  Supportive care; repeat CXR if no clinical improvement in 2 weeks.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-08-24
+==========================================

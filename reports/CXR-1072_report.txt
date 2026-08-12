@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1072
+  Name         : Arun Joshi
+  Age / Gender : 27 years / Female
+  DOB          : 19/07/1998
+  Ward / Bed   : Ward-A14
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-10-13
+  Time         : 14:18
+  Image Quality: Excellent
+  Technique    : 120 kVp  |  3.0 mAs  |  SID 180 cm
+  Referring    : Dr. V. Gupta
+  Accession No.: ACC-1072-8780
+
+CLINICAL INDICATION
+  Mild intermittent cough; Routine health checkup; Pre-operative screening.
+
+FINDINGS
+  Lungs are clear bilaterally with no focal consolidation or infiltrate.
+  Cardiac silhouette is within normal limits.
+  No pleural effusion or pneumothorax identified.
+  Bony thorax and soft tissues are unremarkable.
+
+IMPRESSION
+  No acute cardiopulmonary abnormality identified. Lungs are clear.
+
+SEVERITY / SUBTYPE
+  None
+
+RECOMMENDATION
+  Routine follow-up as clinically indicated.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-10-13
+==========================================

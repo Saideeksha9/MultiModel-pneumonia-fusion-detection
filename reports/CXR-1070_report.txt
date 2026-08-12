@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1070
+  Name         : Lakshmi Iyer
+  Age / Gender : 45 years / Male
+  DOB          : 12/07/1980
+  Ward / Bed   : Ward-B10
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-02-10
+  Time         : 17:31
+  Image Quality: Adequate
+  Technique    : 111 kVp  |  3.3 mAs  |  SID 180 cm
+  Referring    : Dr. V. Gupta
+  Accession No.: ACC-1070-5695
+
+CLINICAL INDICATION
+  Diaphoresis; Pink frothy sputum; Severe acute breathlessness.
+
+FINDINGS
+  Bilateral perihilar airspace opacities in a bat-wing distribution.
+  Kerley B lines noted at the lung bases bilaterally.
+  Small bilateral pleural effusions.
+  Cardiomegaly present with cardiothoracic ratio > 0.5.
+
+IMPRESSION
+  Radiographic features consistent with acute pulmonary oedema. Urgent clinical management required.
+
+SEVERITY / SUBTYPE
+  Severe
+
+RECOMMENDATION
+  IV diuretics; oxygen therapy; ICU monitoring; urgent cardiac evaluation.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-02-10
+==========================================

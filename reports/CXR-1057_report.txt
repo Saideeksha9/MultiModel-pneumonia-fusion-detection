@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1057
+  Name         : Usha Gupta
+  Age / Gender : 68 years / Female
+  DOB          : 03/07/1957
+  Ward / Bed   : Ward-B16
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-01-09
+  Time         : 16:07
+  Image Quality: Adequate
+  Technique    : 128 kVp  |  4.3 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1057-7460
+
+CLINICAL INDICATION
+  Fever and dry cough; Fatigue; Oxygen saturation drop.
+
+FINDINGS
+  Bilateral peripheral ground-glass opacities with lower lobe predominance.
+  Crazy paving pattern noted in bilateral lung fields.
+  No pneumothorax or pleural effusion.
+  Mild cardiomegaly noted.
+
+IMPRESSION
+  Imaging pattern highly suggestive of COVID-19 pneumonia. RT-PCR confirmation strongly advised. Monitor for disease progression.
+
+SEVERITY / SUBTYPE
+  Severe
+
+RECOMMENDATION
+  RT-PCR confirmation; CT chest within 48-72 hours; monitor oxygen saturation.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-01-09
+==========================================

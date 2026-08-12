@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1074
+  Name         : Vikram Rao
+  Age / Gender : 37 years / Male
+  DOB          : 06/11/1988
+  Ward / Bed   : Ward-D10
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-08-15
+  Time         : 17:48
+  Image Quality: Adequate
+  Technique    : 130 kVp  |  3.9 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1074-2148
+
+CLINICAL INDICATION
+  Reduced breath sounds; Progressive dyspnoea; Dullness on percussion.
+
+FINDINGS
+  Large left-sided pleural effusion.
+  Near-complete opacification of the left hemithorax.
+  Contralateral mediastinal shift noted.
+  Right lung is clear.
+
+IMPRESSION
+  Pleural effusion identified. Further evaluation with ultrasound-guided thoracocentesis may be warranted if symptomatic.
+
+SEVERITY / SUBTYPE
+  Large
+
+RECOMMENDATION
+  Ultrasound-guided thoracocentesis; send fluid for LDH, protein, cytology, culture.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-08-15
+==========================================

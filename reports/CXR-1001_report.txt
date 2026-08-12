@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1001
+  Name         : Vikram Gupta
+  Age / Gender : 52 years / Male
+  DOB          : 20/11/1973
+  Ward / Bed   : Ward-B2
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-03-18
+  Time         : 11:10
+  Image Quality: Adequate
+  Technique    : 130 kVp  |  6.1 mAs  |  SID 180 cm
+  Referring    : Dr. P. Patel
+  Accession No.: ACC-1001-9586
+
+CLINICAL INDICATION
+  Mild intermittent cough; Pre-operative screening; Routine health checkup.
+
+FINDINGS
+  Lungs are clear bilaterally with no focal consolidation or infiltrate.
+  Cardiac silhouette is within normal limits.
+  No pleural effusion or pneumothorax identified.
+  Bony thorax and soft tissues are unremarkable.
+
+IMPRESSION
+  No acute cardiopulmonary abnormality identified. Lungs are clear.
+
+SEVERITY / SUBTYPE
+  None
+
+RECOMMENDATION
+  Routine follow-up as clinically indicated.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-03-18
+==========================================

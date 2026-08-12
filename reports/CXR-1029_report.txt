@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1029
+  Name         : Rekha Kumar
+  Age / Gender : 39 years / Female
+  DOB          : 05/10/1986
+  Ward / Bed   : Ward-A9
+  Hospital     : City General Hospital
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-09-01
+  Time         : 14:37
+  Image Quality: Excellent
+  Technique    : 112 kVp  |  5.9 mAs  |  SID 180 cm
+  Referring    : Dr. P. Patel
+  Accession No.: ACC-1029-6828
+
+CLINICAL INDICATION
+  Exertional dyspnoea; Chronic productive cough >3 months; Wheezing.
+
+FINDINGS
+  Hyperinflation of both lungs with flattening of the hemidiaphragms.
+  Increased AP diameter consistent with barrel-chest deformity.
+  Bullous changes in the upper lobes bilaterally.
+  Heart is elongated and vertical in configuration.
+
+IMPRESSION
+  Radiographic changes consistent with COPD/emphysema. Pulmonary function testing and respiratory specialist review advised.
+
+SEVERITY / SUBTYPE
+  Severe
+
+RECOMMENDATION
+  Spirometry; inhaled bronchodilators; smoking cessation; pulmonologist referral.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-09-01
+==========================================

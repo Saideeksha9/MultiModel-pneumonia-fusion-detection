@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1036
+  Name         : Ananya Iyer
+  Age / Gender : 65 years / Female
+  DOB          : 18/09/1960
+  Ward / Bed   : Ward-C4
+  Hospital     : City General Hospital
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-06-14
+  Time         : 16:21
+  Image Quality: Poor
+  Technique    : 118 kVp  |  3.8 mAs  |  SID 180 cm
+  Referring    : Dr. P. Patel
+  Accession No.: ACC-1036-9380
+
+CLINICAL INDICATION
+  Low-grade evening fever; Prolonged cough >3 weeks; Weight loss.
+
+FINDINGS
+  Bilateral upper lobe fibronodular opacities.
+  Cavitary lesion in the left upper lobe.
+  Scattered miliary nodules in both lung fields.
+  Mild right-sided pleural thickening.
+
+IMPRESSION
+  Radiographic findings suspicious for pulmonary tuberculosis. Urgent sputum AFB smear, culture, and NAAT testing recommended. Notify public health.
+
+SEVERITY / SUBTYPE
+  Post-primary
+
+RECOMMENDATION
+  Sputum AFB x3; start DOTS; contact tracing; report to public health authority.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-06-14
+==========================================

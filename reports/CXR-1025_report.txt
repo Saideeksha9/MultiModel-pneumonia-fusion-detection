@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1025
+  Name         : Ganesh Sharma
+  Age / Gender : 31 years / Female
+  DOB          : 08/03/1994
+  Ward / Bed   : Ward-C15
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-12-17
+  Time         : 15:03
+  Image Quality: Excellent
+  Technique    : 124 kVp  |  2.8 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1025-6680
+
+CLINICAL INDICATION
+  Chronic productive cough >3 months; Barrel-shaped chest; Exertional dyspnoea.
+
+FINDINGS
+  Hyperinflation of both lungs with flattening of the hemidiaphragms.
+  Increased AP diameter consistent with barrel-chest deformity.
+  Bullous changes in the upper lobes bilaterally.
+  Heart is elongated and vertical in configuration.
+
+IMPRESSION
+  Radiographic changes consistent with COPD/emphysema. Pulmonary function testing and respiratory specialist review advised.
+
+SEVERITY / SUBTYPE
+  Severe
+
+RECOMMENDATION
+  Spirometry; inhaled bronchodilators; smoking cessation; pulmonologist referral.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-12-17
+==========================================

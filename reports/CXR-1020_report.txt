@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1020
+  Name         : Usha Patel
+  Age / Gender : 53 years / Female
+  DOB          : 21/09/1972
+  Ward / Bed   : Ward-D12
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-07-22
+  Time         : 16:21
+  Image Quality: Adequate
+  Technique    : 115 kVp  |  5.5 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1020-2615
+
+CLINICAL INDICATION
+  Reduced breath sounds; Pleuritic chest pain; Dullness on percussion.
+
+FINDINGS
+  Large left-sided pleural effusion.
+  Near-complete opacification of the left hemithorax.
+  Contralateral mediastinal shift noted.
+  Right lung is clear.
+
+IMPRESSION
+  Pleural effusion identified. Further evaluation with ultrasound-guided thoracocentesis may be warranted if symptomatic.
+
+SEVERITY / SUBTYPE
+  Small
+
+RECOMMENDATION
+  Ultrasound-guided thoracocentesis; send fluid for LDH, protein, cytology, culture.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-07-22
+==========================================

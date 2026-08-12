@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1058
+  Name         : Manoj Pillai
+  Age / Gender : 59 years / Male
+  DOB          : 21/02/1966
+  Ward / Bed   : Ward-A4
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-11-27
+  Time         : 15:58
+  Image Quality: Poor
+  Technique    : 113 kVp  |  2.8 mAs  |  SID 180 cm
+  Referring    : Dr. R. Sharma
+  Accession No.: ACC-1058-8046
+
+CLINICAL INDICATION
+  Long-standing smoker; Incidental finding on imaging; No haemoptysis.
+
+FINDINGS
+  Well-defined rounded opacity in the right upper lobe measuring approximately 8mm.
+  Smooth margins with no spiculation.
+  No calcification visible.
+  No hilar lymphadenopathy.
+
+IMPRESSION
+  Solitary pulmonary nodule identified. CT chest recommended for further characterisation per Fleischner Society guidelines.
+
+SEVERITY / SUBTYPE
+  >10mm
+
+RECOMMENDATION
+  CT chest with contrast; MDT discussion; PET-CT if >8mm and high risk.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-11-27
+==========================================

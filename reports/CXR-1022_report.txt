@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1022
+  Name         : Sanjay Iyer
+  Age / Gender : 70 years / Female
+  DOB          : 13/12/1955
+  Ward / Bed   : Ward-A10
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-05-18
+  Time         : 10:12
+  Image Quality: Poor
+  Technique    : 115 kVp  |  5.7 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1022-8570
+
+CLINICAL INDICATION
+  Dullness on percussion; Reduced breath sounds; Progressive dyspnoea.
+
+FINDINGS
+  Moderate right-sided pleural effusion with blunting of the right costophrenic angle.
+  Homogeneous opacity in the right lower zone.
+  Mild mediastinal shift to the left.
+  Left lung field is clear.
+
+IMPRESSION
+  Pleural effusion identified. Further evaluation with ultrasound-guided thoracocentesis may be warranted if symptomatic.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  Ultrasound-guided thoracocentesis; send fluid for LDH, protein, cytology, culture.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-05-18
+==========================================

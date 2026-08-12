@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1018
+  Name         : Deepa Reddy
+  Age / Gender : 23 years / Female
+  DOB          : 07/11/2002
+  Ward / Bed   : Ward-B11
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-04-22
+  Time         : 09:22
+  Image Quality: Good
+  Technique    : 117 kVp  |  7.2 mAs  |  SID 180 cm
+  Referring    : Dr. P. Patel
+  Accession No.: ACC-1018-7779
+
+CLINICAL INDICATION
+  Pre-operative screening; Routine health checkup; Mild intermittent cough.
+
+FINDINGS
+  Lungs are clear bilaterally with no focal consolidation or infiltrate.
+  Cardiac silhouette is within normal limits.
+  No pleural effusion or pneumothorax identified.
+  Bony thorax and soft tissues are unremarkable.
+
+IMPRESSION
+  No acute cardiopulmonary abnormality identified. Lungs are clear.
+
+SEVERITY / SUBTYPE
+  None
+
+RECOMMENDATION
+  Routine follow-up as clinically indicated.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-04-22
+==========================================

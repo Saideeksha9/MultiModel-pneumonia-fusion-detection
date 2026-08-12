@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1049
+  Name         : Vijay Kumar
+  Age / Gender : 47 years / Female
+  DOB          : 02/06/1978
+  Ward / Bed   : Ward-C4
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-12-16
+  Time         : 14:24
+  Image Quality: Good
+  Technique    : 125 kVp  |  7.8 mAs  |  SID 180 cm
+  Referring    : Dr. P. Patel
+  Accession No.: ACC-1049-7081
+
+CLINICAL INDICATION
+  Oxygen saturation drop; Anosmia and ageusia; Fever and dry cough.
+
+FINDINGS
+  Bilateral peripheral ground-glass opacities with lower lobe predominance.
+  Crazy paving pattern noted in bilateral lung fields.
+  No pneumothorax or pleural effusion.
+  Mild cardiomegaly noted.
+
+IMPRESSION
+  Imaging pattern highly suggestive of COVID-19 pneumonia. RT-PCR confirmation strongly advised. Monitor for disease progression.
+
+SEVERITY / SUBTYPE
+  Critical
+
+RECOMMENDATION
+  RT-PCR confirmation; CT chest within 48-72 hours; monitor oxygen saturation.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-12-16
+==========================================

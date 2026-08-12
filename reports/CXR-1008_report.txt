@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1008
+  Name         : Rajesh Sharma
+  Age / Gender : 47 years / Male
+  DOB          : 01/02/1978
+  Ward / Bed   : Ward-B19
+  Hospital     : City General Hospital
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-12-21
+  Time         : 08:14
+  Image Quality: Adequate
+  Technique    : 112 kVp  |  5.1 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1008-5758
+
+CLINICAL INDICATION
+  Orthopnoea; Diaphoresis; Severe acute breathlessness.
+
+FINDINGS
+  Bilateral perihilar airspace opacities in a bat-wing distribution.
+  Kerley B lines noted at the lung bases bilaterally.
+  Small bilateral pleural effusions.
+  Cardiomegaly present with cardiothoracic ratio > 0.5.
+
+IMPRESSION
+  Radiographic features consistent with acute pulmonary oedema. Urgent clinical management required.
+
+SEVERITY / SUBTYPE
+  Mild
+
+RECOMMENDATION
+  IV diuretics; oxygen therapy; ICU monitoring; urgent cardiac evaluation.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-12-21
+==========================================

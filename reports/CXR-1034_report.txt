@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1034
+  Name         : Vijay Iyer
+  Age / Gender : 59 years / Male
+  DOB          : 27/02/1966
+  Ward / Bed   : Ward-B12
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-05-15
+  Time         : 11:48
+  Image Quality: Poor
+  Technique    : 120 kVp  |  2.2 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1034-5087
+
+CLINICAL INDICATION
+  Haemoptysis; Low-grade evening fever; Prolonged cough >3 weeks.
+
+FINDINGS
+  Right upper lobe infiltrates with early cavitation.
+  Hilar lymphadenopathy on the right.
+  Fibrotic changes and pleural thickening at the right apex.
+  No pneumothorax or pleural effusion identified.
+
+IMPRESSION
+  Radiographic findings suspicious for pulmonary tuberculosis. Urgent sputum AFB smear, culture, and NAAT testing recommended. Notify public health.
+
+SEVERITY / SUBTYPE
+  Post-primary
+
+RECOMMENDATION
+  Sputum AFB x3; start DOTS; contact tracing; report to public health authority.
+
+REPORTING RADIOLOGIST
+  Dr. B. Krishnan
+  Digitally signed — 2024-05-15
+==========================================

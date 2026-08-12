@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1019
+  Name         : Usha Verma
+  Age / Gender : 49 years / Female
+  DOB          : 06/12/1976
+  Ward / Bed   : Ward-B13
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-02-13
+  Time         : 08:54
+  Image Quality: Good
+  Technique    : 124 kVp  |  4.1 mAs  |  SID 180 cm
+  Referring    : Dr. P. Patel
+  Accession No.: ACC-1019-7932
+
+CLINICAL INDICATION
+  Exertional dyspnoea; Barrel-shaped chest; Chronic productive cough >3 months.
+
+FINDINGS
+  Hyperinflation of both lungs with flattening of the hemidiaphragms.
+  Increased AP diameter consistent with barrel-chest deformity.
+  Bullous changes in the upper lobes bilaterally.
+  Heart is elongated and vertical in configuration.
+
+IMPRESSION
+  Radiographic changes consistent with COPD/emphysema. Pulmonary function testing and respiratory specialist review advised.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  Spirometry; inhaled bronchodilators; smoking cessation; pulmonologist referral.
+
+REPORTING RADIOLOGIST
+  Dr. B. Krishnan
+  Digitally signed — 2024-02-13
+==========================================

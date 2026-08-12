@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1051
+  Name         : Manoj Krishnan
+  Age / Gender : 80 years / Male
+  DOB          : 20/02/1945
+  Ward / Bed   : Ward-B10
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-04-21
+  Time         : 12:14
+  Image Quality: Poor
+  Technique    : 113 kVp  |  6.6 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1051-3203
+
+CLINICAL INDICATION
+  Haemoptysis; Weight loss; Low-grade evening fever.
+
+FINDINGS
+  Right upper lobe infiltrates with early cavitation.
+  Hilar lymphadenopathy on the right.
+  Fibrotic changes and pleural thickening at the right apex.
+  No pneumothorax or pleural effusion identified.
+
+IMPRESSION
+  Radiographic findings suspicious for pulmonary tuberculosis. Urgent sputum AFB smear, culture, and NAAT testing recommended. Notify public health.
+
+SEVERITY / SUBTYPE
+  Miliary
+
+RECOMMENDATION
+  Sputum AFB x3; start DOTS; contact tracing; report to public health authority.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-04-21
+==========================================

@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1026
+  Name         : Manoj Pillai
+  Age / Gender : 72 years / Female
+  DOB          : 06/12/1953
+  Ward / Bed   : Ward-A10
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-08-15
+  Time         : 12:48
+  Image Quality: Adequate
+  Technique    : 126 kVp  |  4.9 mAs  |  SID 180 cm
+  Referring    : Dr. P. Patel
+  Accession No.: ACC-1026-1753
+
+CLINICAL INDICATION
+  Prolonged cough >3 weeks; Low-grade evening fever; Weight loss.
+
+FINDINGS
+  Right upper lobe infiltrates with early cavitation.
+  Hilar lymphadenopathy on the right.
+  Fibrotic changes and pleural thickening at the right apex.
+  No pneumothorax or pleural effusion identified.
+
+IMPRESSION
+  Radiographic findings suspicious for pulmonary tuberculosis. Urgent sputum AFB smear, culture, and NAAT testing recommended. Notify public health.
+
+SEVERITY / SUBTYPE
+  Primary
+
+RECOMMENDATION
+  Sputum AFB x3; start DOTS; contact tracing; report to public health authority.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-08-15
+==========================================

@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1013
+  Name         : Usha Rao
+  Age / Gender : 26 years / Male
+  DOB          : 22/04/1999
+  Ward / Bed   : Ward-C9
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-07-04
+  Time         : 17:15
+  Image Quality: Excellent
+  Technique    : 129 kVp  |  2.5 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1013-9920
+
+CLINICAL INDICATION
+  Pleuritic chest pain; Shortness of breath; Chills and rigors.
+
+FINDINGS
+  Right lower lobe consolidation with air bronchograms.
+  Increased opacity in the right base consistent with lobar pneumonia.
+  Blurring of the right hemidiaphragm.
+  No pleural effusion identified.
+
+IMPRESSION
+  Radiographic findings consistent with bacterial pneumonia. Clinical correlation and antibiotic therapy recommended. Follow-up CXR in 4-6 weeks advised.
+
+SEVERITY / SUBTYPE
+  Severe
+
+RECOMMENDATION
+  Antibiotic therapy; repeat CXR in 4-6 weeks post-treatment.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-07-04
+==========================================

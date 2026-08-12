@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1009
+  Name         : Vijay Singh
+  Age / Gender : 49 years / Female
+  DOB          : 26/07/1976
+  Ward / Bed   : Ward-A13
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-04-04
+  Time         : 09:42
+  Image Quality: Poor
+  Technique    : 123 kVp  |  4.8 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1009-6411
+
+CLINICAL INDICATION
+  Post-operative state; Fever (if infected); Mild dyspnoea.
+
+FINDINGS
+  Linear/discoid atelectasis at the left base.
+  Mild volume loss in the left lower lobe.
+  Slight elevation of the left hemidiaphragm.
+  No focal consolidation or pleural effusion.
+
+IMPRESSION
+  Plate-like atelectasis at the lung base. Chest physiotherapy recommended. Repeat imaging if symptoms persist.
+
+SEVERITY / SUBTYPE
+  Segmental
+
+RECOMMENDATION
+  Incentive spirometry; physiotherapy; bronchoscopy if lobar and persistent.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-04-04
+==========================================

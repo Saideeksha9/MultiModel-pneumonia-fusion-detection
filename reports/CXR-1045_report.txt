@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1045
+  Name         : Suresh Reddy
+  Age / Gender : 32 years / Female
+  DOB          : 28/09/1993
+  Ward / Bed   : Ward-B9
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-01-22
+  Time         : 16:29
+  Image Quality: Good
+  Technique    : 126 kVp  |  4.2 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1045-8765
+
+CLINICAL INDICATION
+  Tachycardia; Diminished breath sounds on affected side; Sudden onset chest pain.
+
+FINDINGS
+  Visible pleural line in the right hemithorax.
+  Absent lung markings peripheral to the pleural line.
+  Moderate right-sided pneumothorax estimated at 30%.
+  No mediastinal shift; trachea midline.
+
+IMPRESSION
+  Pneumothorax identified. Urgent clinical assessment required. Consider chest drain if haemodynamically compromised.
+
+SEVERITY / SUBTYPE
+  Large
+
+RECOMMENDATION
+  Urgent review; aspiration or chest drain insertion; repeat CXR in 6 hours.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-01-22
+==========================================

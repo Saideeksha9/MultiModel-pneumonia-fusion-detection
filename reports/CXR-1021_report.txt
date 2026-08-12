@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1021
+  Name         : Lakshmi Menon
+  Age / Gender : 32 years / Female
+  DOB          : 19/04/1993
+  Ward / Bed   : Ward-C4
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-05-02
+  Time         : 14:00
+  Image Quality: Good
+  Technique    : 121 kVp  |  4.6 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1021-4389
+
+CLINICAL INDICATION
+  Diminished breath sounds on affected side; Acute dyspnoea; Tachycardia.
+
+FINDINGS
+  Visible pleural line in the right hemithorax.
+  Absent lung markings peripheral to the pleural line.
+  Moderate right-sided pneumothorax estimated at 30%.
+  No mediastinal shift; trachea midline.
+
+IMPRESSION
+  Pneumothorax identified. Urgent clinical assessment required. Consider chest drain if haemodynamically compromised.
+
+SEVERITY / SUBTYPE
+  Tension
+
+RECOMMENDATION
+  Urgent review; aspiration or chest drain insertion; repeat CXR in 6 hours.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-05-02
+==========================================

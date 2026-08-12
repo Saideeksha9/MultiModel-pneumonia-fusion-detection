@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1044
+  Name         : Lakshmi Gupta
+  Age / Gender : 80 years / Male
+  DOB          : 16/06/1945
+  Ward / Bed   : Ward-A15
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-07-11
+  Time         : 13:42
+  Image Quality: Adequate
+  Technique    : 123 kVp  |  6.2 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1044-8094
+
+CLINICAL INDICATION
+  No haemoptysis; Mild chronic cough; Long-standing smoker.
+
+FINDINGS
+  Well-defined rounded opacity in the right upper lobe measuring approximately 8mm.
+  Smooth margins with no spiculation.
+  No calcification visible.
+  No hilar lymphadenopathy.
+
+IMPRESSION
+  Solitary pulmonary nodule identified. CT chest recommended for further characterisation per Fleischner Society guidelines.
+
+SEVERITY / SUBTYPE
+  <6mm
+
+RECOMMENDATION
+  CT chest with contrast; MDT discussion; PET-CT if >8mm and high risk.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-07-11
+==========================================

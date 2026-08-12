@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+Flask==3.0.0
+pandas
+pillow
+gunicorn

@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1014
+  Name         : Ganesh Reddy
+  Age / Gender : 48 years / Female
+  DOB          : 13/03/1977
+  Ward / Bed   : Ward-B17
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-11-21
+  Time         : 12:29
+  Image Quality: Excellent
+  Technique    : 124 kVp  |  5.7 mAs  |  SID 180 cm
+  Referring    : Dr. V. Gupta
+  Accession No.: ACC-1014-8369
+
+CLINICAL INDICATION
+  Exertional dyspnoea; Barrel-shaped chest; Chronic productive cough >3 months.
+
+FINDINGS
+  Hyperinflation of both lungs with flattening of the hemidiaphragms.
+  Increased AP diameter consistent with barrel-chest deformity.
+  Bullous changes in the upper lobes bilaterally.
+  Heart is elongated and vertical in configuration.
+
+IMPRESSION
+  Radiographic changes consistent with COPD/emphysema. Pulmonary function testing and respiratory specialist review advised.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  Spirometry; inhaled bronchodilators; smoking cessation; pulmonologist referral.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-11-21
+==========================================

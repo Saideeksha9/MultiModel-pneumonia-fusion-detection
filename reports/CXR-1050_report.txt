@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1050
+  Name         : Sanjay Joshi
+  Age / Gender : 76 years / Male
+  DOB          : 24/03/1949
+  Ward / Bed   : Ward-D11
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-07-28
+  Time         : 10:04
+  Image Quality: Adequate
+  Technique    : 129 kVp  |  6.2 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1050-9987
+
+CLINICAL INDICATION
+  Chills and rigors; Pleuritic chest pain; High-grade fever (>38.5°C).
+
+FINDINGS
+  Left lower lobe airspace opacity consistent with consolidation.
+  Air bronchograms visible within the opacity.
+  Mild blunting of the left costophrenic angle.
+  Heart size is normal.
+
+IMPRESSION
+  Radiographic findings consistent with bacterial pneumonia. Clinical correlation and antibiotic therapy recommended. Follow-up CXR in 4-6 weeks advised.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  Antibiotic therapy; repeat CXR in 4-6 weeks post-treatment.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-07-28
+==========================================

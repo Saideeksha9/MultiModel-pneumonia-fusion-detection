@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1038
+  Name         : Pooja Rao
+  Age / Gender : 53 years / Male
+  DOB          : 02/09/1972
+  Ward / Bed   : Ward-B2
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-05-23
+  Time         : 10:40
+  Image Quality: Excellent
+  Technique    : 128 kVp  |  3.7 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1038-5269
+
+CLINICAL INDICATION
+  Weight loss; Drenching night sweats; Haemoptysis.
+
+FINDINGS
+  Bilateral upper lobe fibronodular opacities.
+  Cavitary lesion in the left upper lobe.
+  Scattered miliary nodules in both lung fields.
+  Mild right-sided pleural thickening.
+
+IMPRESSION
+  Radiographic findings suspicious for pulmonary tuberculosis. Urgent sputum AFB smear, culture, and NAAT testing recommended. Notify public health.
+
+SEVERITY / SUBTYPE
+  Post-primary
+
+RECOMMENDATION
+  Sputum AFB x3; start DOTS; contact tracing; report to public health authority.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-05-23
+==========================================

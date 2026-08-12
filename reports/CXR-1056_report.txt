@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1056
+  Name         : Swathi Kumar
+  Age / Gender : 40 years / Male
+  DOB          : 05/09/1985
+  Ward / Bed   : Ward-D3
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-06-17
+  Time         : 16:58
+  Image Quality: Adequate
+  Technique    : 125 kVp  |  7.8 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1056-6316
+
+CLINICAL INDICATION
+  Sudden onset chest pain; Tachycardia; Acute dyspnoea.
+
+FINDINGS
+  Visible pleural line in the right hemithorax.
+  Absent lung markings peripheral to the pleural line.
+  Moderate right-sided pneumothorax estimated at 30%.
+  No mediastinal shift; trachea midline.
+
+IMPRESSION
+  Pneumothorax identified. Urgent clinical assessment required. Consider chest drain if haemodynamically compromised.
+
+SEVERITY / SUBTYPE
+  Large
+
+RECOMMENDATION
+  Urgent review; aspiration or chest drain insertion; repeat CXR in 6 hours.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-06-17
+==========================================

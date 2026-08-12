@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1003
+  Name         : Lakshmi Joshi
+  Age / Gender : 69 years / Female
+  DOB          : 08/03/1956
+  Ward / Bed   : Ward-A13
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-09-16
+  Time         : 09:48
+  Image Quality: Good
+  Technique    : 130 kVp  |  3.0 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1003-6447
+
+CLINICAL INDICATION
+  Myalgia and fatigue; Low-grade fever; Mild dyspnoea.
+
+FINDINGS
+  Bilateral interstitial infiltrates with peribronchial thickening.
+  Diffuse ground-glass haziness in both lung fields.
+  No focal lobar consolidation.
+  Cardiac silhouette is normal in size.
+
+IMPRESSION
+  Bilateral interstitial pattern consistent with viral pneumonia. Correlate with clinical and serological findings.
+
+SEVERITY / SUBTYPE
+  Mild
+
+RECOMMENDATION
+  Supportive care; repeat CXR if no clinical improvement in 2 weeks.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-09-16
+==========================================

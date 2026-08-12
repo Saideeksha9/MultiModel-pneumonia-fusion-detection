@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1064
+  Name         : Rajesh Menon
+  Age / Gender : 36 years / Male
+  DOB          : 05/05/1989
+  Ward / Bed   : Ward-D4
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-10-21
+  Time         : 17:35
+  Image Quality: Poor
+  Technique    : 129 kVp  |  5.2 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1064-8485
+
+CLINICAL INDICATION
+  Chills and rigors; High-grade fever (>38.5°C); Productive cough with purulent sputum.
+
+FINDINGS
+  Right lower lobe consolidation with air bronchograms.
+  Increased opacity in the right base consistent with lobar pneumonia.
+  Blurring of the right hemidiaphragm.
+  No pleural effusion identified.
+
+IMPRESSION
+  Radiographic findings consistent with bacterial pneumonia. Clinical correlation and antibiotic therapy recommended. Follow-up CXR in 4-6 weeks advised.
+
+SEVERITY / SUBTYPE
+  Severe
+
+RECOMMENDATION
+  Antibiotic therapy; repeat CXR in 4-6 weeks post-treatment.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-10-21
+==========================================

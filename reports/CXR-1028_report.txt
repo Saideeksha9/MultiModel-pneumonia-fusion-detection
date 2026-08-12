@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1028
+  Name         : Ganesh Sharma
+  Age / Gender : 66 years / Female
+  DOB          : 01/06/1959
+  Ward / Bed   : Ward-D11
+  Hospital     : RVITM Medical Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-05-25
+  Time         : 14:54
+  Image Quality: Good
+  Technique    : 125 kVp  |  3.3 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1028-1391
+
+CLINICAL INDICATION
+  Long-standing smoker; Incidental finding on imaging; No haemoptysis.
+
+FINDINGS
+  Well-defined rounded opacity in the right upper lobe measuring approximately 8mm.
+  Smooth margins with no spiculation.
+  No calcification visible.
+  No hilar lymphadenopathy.
+
+IMPRESSION
+  Solitary pulmonary nodule identified. CT chest recommended for further characterisation per Fleischner Society guidelines.
+
+SEVERITY / SUBTYPE
+  6-10mm
+
+RECOMMENDATION
+  CT chest with contrast; MDT discussion; PET-CT if >8mm and high risk.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-05-25
+==========================================

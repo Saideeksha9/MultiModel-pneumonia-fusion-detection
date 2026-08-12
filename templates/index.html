@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Diagnosis Summary</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- html2pdf Library for PDF Download -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            min-height: 100vh;
+            padding: 40px 0;
+        }
+
+        .dashboard-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Hero Banner Severity Styling - Light Pastel Theme */
+        .hero-banner {
+            border-radius: 16px;
+            padding: 28px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .hero-danger {
+            background: linear-gradient(135deg, #fef2f2 0%, #ffe4e6 100%);
+            border: 1px solid #fecdd3;
+            color: #9f1239;
+        }
+        .hero-warning {
+            background: linear-gradient(135deg, #fffbe3 0%, #fef3c7 100%);
+            border: 1px solid #fde68a;
+            color: #854d0e;
+        }
+        .hero-info {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border: 1px solid #bfdbfe;
+            color: #1e40af;
+        }
+        .hero-success {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            border: 1px solid #bbf7d0;
+            color: #166534;
+        }
+
+        .badge-severity {
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .badge-danger { background-color: #e11d48; color: #ffffff; }
+        .badge-warning { background-color: #d97706; color: #ffffff; }
+        .badge-info { background-color: #2563eb; color: #ffffff; }
+        .badge-success { background-color: #16a34a; color: #ffffff; }
+
+        .info-card {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 20px;
+            height: 100%;
+        }
+
+        .icon-box {
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+        }
+
+        .progress-bar-custom {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #e2e8f0;
+            overflow: hidden;
+        }
+
+        .prob-fill {
+            height: 100%;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #2563eb 0%, #3b82f6 100%);
+        }
+
+        /* Print Rule Exclusions */
+        @media print {
+            .no-print { display: none !important; }
+            body { background-color: #ffffff; padding: 0; }
+            .dashboard-card { box-shadow: none; border: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" style="max-width: 920px;">
+    
+    <!-- Top Action Bar & Navigation -->
+    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-3 mb-4 no-print">
+        <div>
+            <h3 class="fw-bold text-uppercase tracking-wide mb-0" style="letter-spacing: 1px; color: #0f172a;">
+                <i class="fa-solid fa-notes-medical text-primary me-2"></i>Multimodal Clinical Diagnosis Summary
+            </h3>
+            <span class="text-muted small">Patient Case {{ patient_index + 1 }} of {{ total_patients }}</span>
+        </div>
+        <div class="d-flex gap-2 flex-wrap">
+            <a href="/patient/{{ patient_index - 1 }}" class="btn btn-outline-secondary btn-sm rounded-pill px-3 {% if patient_index == 0 %}disabled{% endif %}">
+                <i class="fa-solid fa-chevron-left me-1"></i> Prev Case
+            </a>
+            <a href="/patient/{{ patient_index + 1 }}" class="btn btn-outline-primary btn-sm rounded-pill px-3 {% if patient_index >= total_patients - 1 %}disabled{% endif %}">
+                Next Case <i class="fa-solid fa-chevron-right ms-1"></i>
+            </a>
+            <button onclick="downloadPDF()" class="btn btn-success btn-sm rounded-pill px-3 shadow-sm">
+                <i class="fa-solid fa-file-pdf me-1"></i> Download Report (PDF)
+            </button>
+        </div>
+    </div>
+
+    <!-- Printable Report Card -->
+    <div class="dashboard-card p-4 p-md-5" id="reportContent">
+
+        <!-- 1. Primary Disease & Severity Banner -->
+        <div class="hero-banner hero-{{ severity_color }} mb-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+                <div>
+                    <span class="text-uppercase fw-bold small opacity-75">Predicted Condition (Ground Truth: {{ actual_label }})</span>
+                    <h1 class="display-5 fw-bold mb-0">{{ prediction }}</h1>
+                </div>
+                <div class="text-md-end">
+                    <span class="badge badge-severity badge-{{ severity_color }} mb-2 d-inline-block shadow-sm">
+                        <i class="fa-solid fa-circle-exclamation me-1"></i> {{ severity_level }} Severity
+                    </span>
+                    <div class="fs-5 fw-semibold opacity-75">
+                        Model Confidence: <span class="fw-bold">{{ confidence }}%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Medical Information Grid -->
+        <div class="row g-3 mb-4">
+            
+            <!-- Symptoms -->
+            <div class="col-md-6">
+                <div class="info-card">
+                    <div class="icon-box bg-warning bg-opacity-10 text-warning">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <h6 class="fw-bold text-uppercase text-warning mb-2" style="letter-spacing: 0.5px;">Disease Symptoms</h6>
+                    <p class="mb-0 text-secondary small leading-relaxed">{{ symptoms }}</p>
+                </div>
+            </div>
+
+            <!-- Suggestions -->
+            <div class="col-md-6">
+                <div class="info-card">
+                    <div class="icon-box bg-primary bg-opacity-10 text-primary">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <h6 class="fw-bold text-uppercase text-primary mb-2" style="letter-spacing: 0.5px;">Medical Suggestions</h6>
+                    <p class="mb-0 text-secondary small leading-relaxed">{{ suggestions }}</p>
+                </div>
+            </div>
+
+            <!-- Precautions -->
+            <div class="col-md-12">
+                <div class="info-card border-success border-opacity-25">
+                    <div class="icon-box bg-success bg-opacity-10 text-success">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h6 class="fw-bold text-uppercase text-success mb-2" style="letter-spacing: 0.5px;">Recommended Precautions</h6>
+                    <p class="mb-0 text-secondary small leading-relaxed">{{ precautions }}</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 3. Original Patient Symptoms -->
+        <div class="p-3 mb-4 rounded bg-light border">
+            <div class="d-flex align-items-center gap-2 text-muted small fw-bold mb-1">
+                <i class="fa-solid fa-file-medical-text"></i> EXTRACTED PATIENT CLINICAL FINDINGS:
+            </div>
+            <p class="mb-0 text-secondary fst-italic small">"{{ input_symptoms }}"</p>
+        </div>
+
+        <!-- 4. Differential Probability Breakdown -->
+        <div class="pt-3 border-top">
+            <h6 class="text-muted fw-bold text-uppercase mb-3 small" style="letter-spacing: 1px;">
+                Differential Diagnosis Breakdown
+            </h6>
+            <div class="row g-3">
+                {% for item in probabilities[:4] %}
+                <div class="col-md-6">
+                    <div class="p-3 rounded border bg-light">
+                        <div class="d-flex justify-content-between small mb-2">
+                            <span class="fw-semibold text-dark">{{ item.class }}</span>
+                            <span class="fw-bold text-primary">{{ item.probability }}%</span>
+                        </div>
+                        <div class="progress-bar-custom">
+                            <div class="prob-fill" style="width: {{ item.probability }}%;"></div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function downloadPDF() {
+        const element = document.getElementById('reportContent');
+        const opt = {
+            margin:       0.3,
+            filename:     'Clinical_Diagnosis_Report_Case_{{ patient_index + 1 }}.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 2, useCORS: true },
+            jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+        };
+        html2pdf().set(opt).from(element).save();
+    }
+</script>
+
+</body>
+</html>

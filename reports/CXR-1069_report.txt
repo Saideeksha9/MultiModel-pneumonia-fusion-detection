@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1069
+  Name         : Rajesh Rao
+  Age / Gender : 65 years / Female
+  DOB          : 24/06/1960
+  Ward / Bed   : Ward-D16
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-10-20
+  Time         : 09:56
+  Image Quality: Good
+  Technique    : 129 kVp  |  2.3 mAs  |  SID 180 cm
+  Referring    : Dr. R. Sharma
+  Accession No.: ACC-1069-7782
+
+CLINICAL INDICATION
+  Orthopnoea; Diaphoresis; Pink frothy sputum.
+
+FINDINGS
+  Bilateral perihilar airspace opacities in a bat-wing distribution.
+  Kerley B lines noted at the lung bases bilaterally.
+  Small bilateral pleural effusions.
+  Cardiomegaly present with cardiothoracic ratio > 0.5.
+
+IMPRESSION
+  Radiographic features consistent with acute pulmonary oedema. Urgent clinical management required.
+
+SEVERITY / SUBTYPE
+  Mild
+
+RECOMMENDATION
+  IV diuretics; oxygen therapy; ICU monitoring; urgent cardiac evaluation.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-10-20
+==========================================

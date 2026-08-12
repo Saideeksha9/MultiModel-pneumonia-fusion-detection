@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1059
+  Name         : Karthik Kumar
+  Age / Gender : 76 years / Female
+  DOB          : 22/12/1949
+  Ward / Bed   : Ward-C2
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-12-18
+  Time         : 14:37
+  Image Quality: Good
+  Technique    : 123 kVp  |  5.9 mAs  |  SID 180 cm
+  Referring    : Dr. A. Mehta
+  Accession No.: ACC-1059-3555
+
+CLINICAL INDICATION
+  Mild dyspnoea; Reduced breath sounds at base; Fever (if infected).
+
+FINDINGS
+  Linear/discoid atelectasis at the left base.
+  Mild volume loss in the left lower lobe.
+  Slight elevation of the left hemidiaphragm.
+  No focal consolidation or pleural effusion.
+
+IMPRESSION
+  Plate-like atelectasis at the lung base. Chest physiotherapy recommended. Repeat imaging if symptoms persist.
+
+SEVERITY / SUBTYPE
+  Lobar
+
+RECOMMENDATION
+  Incentive spirometry; physiotherapy; bronchoscopy if lobar and persistent.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-12-18
+==========================================

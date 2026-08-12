@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1065
+  Name         : Usha Gupta
+  Age / Gender : 45 years / Female
+  DOB          : 15/04/1980
+  Ward / Bed   : Ward-B16
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-07-11
+  Time         : 15:25
+  Image Quality: Excellent
+  Technique    : 120 kVp  |  4.6 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1065-1408
+
+CLINICAL INDICATION
+  Shortness of breath; Pleuritic chest pain; Productive cough with purulent sputum.
+
+FINDINGS
+  Left lower lobe airspace opacity consistent with consolidation.
+  Air bronchograms visible within the opacity.
+  Mild blunting of the left costophrenic angle.
+  Heart size is normal.
+
+IMPRESSION
+  Radiographic findings consistent with bacterial pneumonia. Clinical correlation and antibiotic therapy recommended. Follow-up CXR in 4-6 weeks advised.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  Antibiotic therapy; repeat CXR in 4-6 weeks post-treatment.
+
+REPORTING RADIOLOGIST
+  Dr. C. Pillai
+  Digitally signed — 2024-07-11
+==========================================

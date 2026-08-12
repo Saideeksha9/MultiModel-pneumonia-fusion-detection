@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1055
+  Name         : Rekha Reddy
+  Age / Gender : 46 years / Male
+  DOB          : 20/05/1979
+  Ward / Bed   : Ward-B3
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-11-25
+  Time         : 10:40
+  Image Quality: Excellent
+  Technique    : 119 kVp  |  6.7 mAs  |  SID 180 cm
+  Referring    : Dr. R. Sharma
+  Accession No.: ACC-1055-4263
+
+CLINICAL INDICATION
+  Long-standing smoker; Mild chronic cough; Incidental finding on imaging.
+
+FINDINGS
+  Well-defined rounded opacity in the right upper lobe measuring approximately 8mm.
+  Smooth margins with no spiculation.
+  No calcification visible.
+  No hilar lymphadenopathy.
+
+IMPRESSION
+  Solitary pulmonary nodule identified. CT chest recommended for further characterisation per Fleischner Society guidelines.
+
+SEVERITY / SUBTYPE
+  <6mm
+
+RECOMMENDATION
+  CT chest with contrast; MDT discussion; PET-CT if >8mm and high risk.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-11-25
+==========================================

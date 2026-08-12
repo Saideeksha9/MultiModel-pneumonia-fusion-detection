@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1031
+  Name         : Harish Sharma
+  Age / Gender : 37 years / Male
+  DOB          : 05/08/1988
+  Ward / Bed   : Ward-C4
+  Hospital     : City General Hospital
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-11-04
+  Time         : 17:13
+  Image Quality: Adequate
+  Technique    : 121 kVp  |  3.0 mAs  |  SID 180 cm
+  Referring    : Dr. V. Gupta
+  Accession No.: ACC-1031-5341
+
+CLINICAL INDICATION
+  Fatigue; Oxygen saturation drop; Progressive breathlessness.
+
+FINDINGS
+  Multifocal bilateral ground-glass opacities.
+  Peripheral and subpleural distribution of opacities.
+  Bilateral lower lobe involvement greater than upper lobes.
+  No significant pleural effusion.
+
+IMPRESSION
+  Imaging pattern highly suggestive of COVID-19 pneumonia. RT-PCR confirmation strongly advised. Monitor for disease progression.
+
+SEVERITY / SUBTYPE
+  Severe
+
+RECOMMENDATION
+  RT-PCR confirmation; CT chest within 48-72 hours; monitor oxygen saturation.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-11-04
+==========================================

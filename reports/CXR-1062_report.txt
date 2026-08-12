@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1062
+  Name         : Rekha Rao
+  Age / Gender : 32 years / Male
+  DOB          : 05/01/1993
+  Ward / Bed   : Ward-A3
+  Hospital     : Fortis Imaging Centre
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-06-26
+  Time         : 11:37
+  Image Quality: Good
+  Technique    : 118 kVp  |  2.3 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1062-2015
+
+CLINICAL INDICATION
+  Progressive dyspnoea; Dullness on percussion; Reduced breath sounds.
+
+FINDINGS
+  Large left-sided pleural effusion.
+  Near-complete opacification of the left hemithorax.
+  Contralateral mediastinal shift noted.
+  Right lung is clear.
+
+IMPRESSION
+  Pleural effusion identified. Further evaluation with ultrasound-guided thoracocentesis may be warranted if symptomatic.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  Ultrasound-guided thoracocentesis; send fluid for LDH, protein, cytology, culture.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-06-26
+==========================================

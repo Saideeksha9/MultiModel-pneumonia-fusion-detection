@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1053
+  Name         : Ananya Singh
+  Age / Gender : 50 years / Female
+  DOB          : 09/11/1975
+  Ward / Bed   : Ward-D9
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : Lateral
+  Date         : 2024-01-26
+  Time         : 15:57
+  Image Quality: Good
+  Technique    : 112 kVp  |  4.7 mAs  |  SID 180 cm
+  Referring    : Dr. S. Rao
+  Accession No.: ACC-1053-8418
+
+CLINICAL INDICATION
+  Myalgia and fatigue; Low-grade fever; Dry non-productive cough.
+
+FINDINGS
+  Bilateral interstitial infiltrates with peribronchial thickening.
+  Diffuse ground-glass haziness in both lung fields.
+  No focal lobar consolidation.
+  Cardiac silhouette is normal in size.
+
+IMPRESSION
+  Bilateral interstitial pattern consistent with viral pneumonia. Correlate with clinical and serological findings.
+
+SEVERITY / SUBTYPE
+  Moderate
+
+RECOMMENDATION
+  Supportive care; repeat CXR if no clinical improvement in 2 weeks.
+
+REPORTING RADIOLOGIST
+  Dr. E. Reddy
+  Digitally signed — 2024-01-26
+==========================================

@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1061
+  Name         : Rekha Reddy
+  Age / Gender : 49 years / Male
+  DOB          : 26/10/1976
+  Ward / Bed   : Ward-B5
+  Hospital     : Apollo Diagnostics
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : PA (Posteroanterior)
+  Date         : 2024-04-03
+  Time         : 16:13
+  Image Quality: Adequate
+  Technique    : 114 kVp  |  6.7 mAs  |  SID 180 cm
+  Referring    : Dr. V. Gupta
+  Accession No.: ACC-1061-7237
+
+CLINICAL INDICATION
+  Pre-operative screening; Mild intermittent cough; Routine health checkup.
+
+FINDINGS
+  Lungs are clear bilaterally with no focal consolidation or infiltrate.
+  Cardiac silhouette is within normal limits.
+  No pleural effusion or pneumothorax identified.
+  Bony thorax and soft tissues are unremarkable.
+
+IMPRESSION
+  No acute cardiopulmonary abnormality identified. Lungs are clear.
+
+SEVERITY / SUBTYPE
+  None
+
+RECOMMENDATION
+  Routine follow-up as clinically indicated.
+
+REPORTING RADIOLOGIST
+  Dr. A. Nair
+  Digitally signed — 2024-04-03
+==========================================

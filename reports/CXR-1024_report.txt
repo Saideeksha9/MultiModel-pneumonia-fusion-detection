@@ -1,0 +1,42 @@
+CHEST X-RAY REPORT
+==========================================
+PATIENT INFORMATION
+  Patient ID   : CXR-1024
+  Name         : Ananya Krishnan
+  Age / Gender : 43 years / Male
+  DOB          : 01/01/1982
+  Ward / Bed   : Ward-D8
+  Hospital     : NIMHANS Radiology
+
+EXAMINATION DETAILS
+  Modality     : Chest X-Ray (CXR)
+  View         : AP (Anteroposterior)
+  Date         : 2024-04-16
+  Time         : 17:54
+  Image Quality: Poor
+  Technique    : 130 kVp  |  5.5 mAs  |  SID 180 cm
+  Referring    : Dr. K. Iyer
+  Accession No.: ACC-1024-2380
+
+CLINICAL INDICATION
+  Progressive dyspnoea; Pleuritic chest pain; Reduced breath sounds.
+
+FINDINGS
+  Large left-sided pleural effusion.
+  Near-complete opacification of the left hemithorax.
+  Contralateral mediastinal shift noted.
+  Right lung is clear.
+
+IMPRESSION
+  Pleural effusion identified. Further evaluation with ultrasound-guided thoracocentesis may be warranted if symptomatic.
+
+SEVERITY / SUBTYPE
+  Small
+
+RECOMMENDATION
+  Ultrasound-guided thoracocentesis; send fluid for LDH, protein, cytology, culture.
+
+REPORTING RADIOLOGIST
+  Dr. D. Menon
+  Digitally signed — 2024-04-16
+==========================================
