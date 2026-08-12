@@ -1,9 +1,16 @@
 import os
-import torch
 import logging
 import pandas as pd
 from functools import lru_cache
 from flask import Flask, render_template, redirect, url_for
+
+# ---------------------------------------------------------
+# LOW-MEMORY PYTORCH CONFIGURATION (Prevents OOM Crashes)
+# ---------------------------------------------------------
+import torch
+torch.set_num_threads(1)         # Restrict PyTorch to single thread
+torch.set_grad_enabled(False)    # Completely disable gradient tracking
+
 from torchvision import transforms
 from PIL import Image
 from model import MultiModalModel
@@ -16,7 +23,7 @@ app = Flask(__name__)
 
 # Base directory setup
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-device = torch.device("cpu")  # Force CPU for deployment containers
+device = torch.device("cpu")
 
 # Absolute file paths
 CSV_FILE = os.path.join(BASE_DIR, "chest_xray_multimodal_dataset.csv")
@@ -26,7 +33,7 @@ MODEL_PATH = os.path.join(BASE_DIR, "model.pth")
 # Load Dataset CSV
 dataset_df = pd.read_csv(CSV_FILE)
 
-# Global Load of Vocab & Model
+# Load Vocab & Model
 VOCAB = torch.load(VOCAB_PATH, map_location=device)
 state_dict = torch.load(MODEL_PATH, map_location=device)
 
@@ -129,7 +136,6 @@ def normalize_path(path_str):
     clean_path = str(path_str).replace('\\', '/')
     return os.path.join(BASE_DIR, clean_path)
 
-# In-Memory Cache to speed up predictions and prevent server timeouts
 @lru_cache(maxsize=100)
 def analyze_case_cached(target_index):
     row = dataset_df.iloc[target_index]
@@ -189,7 +195,6 @@ def patient_case(index):
     if index != target_index:
         return redirect(url_for('patient_case', index=target_index))
 
-    # Get cached result instantly
     result = analyze_case_cached(target_index)
 
     return render_template(
