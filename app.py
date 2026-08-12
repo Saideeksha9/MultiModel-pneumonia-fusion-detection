@@ -2,30 +2,31 @@ import os
 import torch
 import logging
 import pandas as pd
+from functools import lru_cache
 from flask import Flask, render_template, redirect, url_for
 from torchvision import transforms
 from PIL import Image
 from model import MultiModalModel
 from dataset import extract_text
 
-# Silence Werkzeug HTTP logs
+# Silence HTTP logs
 logging.getLogger('werkzeug').setLevel(logging.ERROR)
 
 app = Flask(__name__)
 
 # Base directory setup
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")  # Force CPU for deployment containers
 
 # Absolute file paths
 CSV_FILE = os.path.join(BASE_DIR, "chest_xray_multimodal_dataset.csv")
 VOCAB_PATH = os.path.join(BASE_DIR, "vocab.pth")
 MODEL_PATH = os.path.join(BASE_DIR, "model.pth")
 
+# Load Dataset CSV
 dataset_df = pd.read_csv(CSV_FILE)
 
-# Load Vocab & Model
+# Global Load of Vocab & Model
 VOCAB = torch.load(VOCAB_PATH, map_location=device)
 state_dict = torch.load(MODEL_PATH, map_location=device)
 
@@ -125,15 +126,29 @@ MEDICAL_INFO = {
 }
 
 def normalize_path(path_str):
-    """Converts Windows backslashes to system-agnostic paths."""
     clean_path = str(path_str).replace('\\', '/')
     return os.path.join(BASE_DIR, clean_path)
 
-def analyze_case(image_path, text):
+# In-Memory Cache to speed up predictions and prevent server timeouts
+@lru_cache(maxsize=100)
+def analyze_case_cached(target_index):
+    row = dataset_df.iloc[target_index]
+
+    report_path = normalize_path(row['report_path'])
+    if not os.path.exists(report_path):
+        symptoms_text = f"Patient presents with findings associated with {row['diagnosis']}."
+    else:
+        with open(report_path, 'r', encoding='utf-8', errors='ignore') as f:
+            symptoms_text = f.read()
+
+    image_path = normalize_path(row['image_path'])
+    if not os.path.exists(image_path):
+        image_path = os.path.join(BASE_DIR, "images", "CXR-1001.png")
+
     image = Image.open(image_path).convert("RGB")
     image_tensor = transform(image).unsqueeze(0).to(device)
 
-    clean_text = extract_text(text) if "FINDINGS" in text or "IMPRESSION" in text else text.lower()
+    clean_text = extract_text(symptoms_text) if "FINDINGS" in symptoms_text or "IMPRESSION" in symptoms_text else symptoms_text.lower()
     tokens = [VOCAB.get(word, 0) for word in clean_text.split()]
     tokens = tokens[:100] + [0] * (100 - len(tokens))
     text_tensor = torch.tensor(tokens).unsqueeze(0).to(device)
@@ -158,6 +173,8 @@ def analyze_case(image_path, text):
         "prediction": pred_class,
         "confidence": round(probs[pred_idx].item() * 100, 2),
         "medical": medical_details,
+        "symptoms_display": clean_text,
+        "actual_label": row['diagnosis'],
         "probabilities": all_probabilities
     }
 
@@ -167,38 +184,19 @@ def index():
 
 @app.route('/patient/<int:index>', methods=['GET'])
 def patient_case(index):
-    # Ensure index stays within limits
     target_index = max(0, min(index, len(dataset_df) - 1))
     
-    # If URL requested out-of-bounds index, redirect gracefully
     if index != target_index:
         return redirect(url_for('patient_case', index=target_index))
 
-    row = dataset_df.iloc[target_index]
-
-    # Clean and load report path safely
-    report_path = normalize_path(row['report_path'])
-    if not os.path.exists(report_path):
-        symptoms_text = f"Patient presents with findings associated with {row['diagnosis']}."
-    else:
-        with open(report_path, 'r', encoding='utf-8', errors='ignore') as f:
-            symptoms_text = f.read()
-
-    # Clean and verify image path safely
-    image_path = normalize_path(row['image_path'])
-    
-    # Fallback to default image if specific file is missing
-    if not os.path.exists(image_path):
-        image_path = os.path.join(BASE_DIR, "images", "CXR-1001.png")
-
-    result = analyze_case(image_path, symptoms_text)
-    clean_symptoms_display = extract_text(symptoms_text)
+    # Get cached result instantly
+    result = analyze_case_cached(target_index)
 
     return render_template(
         'index.html',
         patient_index=target_index,
         total_patients=len(dataset_df),
-        actual_label=row['diagnosis'],
+        actual_label=result["actual_label"],
         prediction=result["prediction"],
         confidence=result["confidence"],
         severity_level=result["medical"]["severity"],
@@ -206,7 +204,7 @@ def patient_case(index):
         symptoms=result["medical"]["symptoms"],
         suggestions=result["medical"]["suggestions"],
         precautions=result["medical"]["precautions"],
-        input_symptoms=clean_symptoms_display,
+        input_symptoms=result["symptoms_display"],
         probabilities=result["probabilities"]
     )
 
