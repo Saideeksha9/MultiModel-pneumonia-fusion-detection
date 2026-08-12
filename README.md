@@ -3,7 +3,8 @@
 A deep learning-based system for pneumonia detection using **Chest X-Ray images and clinical reports**. The project combines visual and textual information to improve pneumonia classification.
 
  🚀 Live Demo
-     web-production-29fe0.up.railway.app
+
+ https://web-production-29fe0.up.railway.app/patient/0
  
 ## 🚀 Features
 
