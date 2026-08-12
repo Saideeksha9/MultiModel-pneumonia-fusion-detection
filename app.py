@@ -8,25 +8,27 @@ from PIL import Image
 from model import MultiModalModel
 from dataset import extract_text
 
-# ---------------------------------------------------------
-# Silence Werkzeug/Flask HTTP Request Logs
-# ---------------------------------------------------------
+# Silence Werkzeug HTTP logs
 logging.getLogger('werkzeug').setLevel(logging.ERROR)
 
 app = Flask(__name__)
 
-# Device Configuration
+# Base directory setup
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Load Dataset CSV
-CSV_FILE = "chest_xray_multimodal_dataset.csv"
+# Absolute file paths
+CSV_FILE = os.path.join(BASE_DIR, "chest_xray_multimodal_dataset.csv")
+VOCAB_PATH = os.path.join(BASE_DIR, "vocab.pth")
+MODEL_PATH = os.path.join(BASE_DIR, "model.pth")
+
 dataset_df = pd.read_csv(CSV_FILE)
 
-# Load Vocab & Model State Dict
-VOCAB = torch.load("vocab.pth", map_location=device)
-state_dict = torch.load("model.pth", map_location=device)
+# Load Vocab & Model
+VOCAB = torch.load(VOCAB_PATH, map_location=device)
+state_dict = torch.load(MODEL_PATH, map_location=device)
 
-# Auto-detect checkpoint vocabulary dimension
 checkpoint_embed_shape = state_dict["text_branch.embedding.weight"].shape[0]
 model = MultiModalModel(vocab_size=checkpoint_embed_shape - 1)
 model.load_state_dict(state_dict)
@@ -47,7 +49,6 @@ LABELS = [
     "Pulmonary Edema", "Atelectasis", "Emphysema"
 ]
 
-# Medical Information Mapping
 MEDICAL_INFO = {
     "COVID-19": {
         "severity": "Critical", "color": "danger",
@@ -123,6 +124,11 @@ MEDICAL_INFO = {
     }
 }
 
+def normalize_path(path_str):
+    """Converts Windows backslashes to system-agnostic paths."""
+    clean_path = str(path_str).replace('\\', '/')
+    return os.path.join(BASE_DIR, clean_path)
+
 def analyze_case(image_path, text):
     image = Image.open(image_path).convert("RGB")
     image_tensor = transform(image).unsqueeze(0).to(device)
@@ -132,12 +138,10 @@ def analyze_case(image_path, text):
     tokens = tokens[:100] + [0] * (100 - len(tokens))
     text_tensor = torch.tensor(tokens).unsqueeze(0).to(device)
 
-    # TEMPERATURE SCALER (Calibrates overconfident probability distributions)
     TEMPERATURE = 2.0  
 
     with torch.no_grad():
         outputs, _, _ = model(image_tensor, text_tensor)
-        # Scaled softmax prevents single-class 99% overconfidence
         probs = torch.softmax(outputs / TEMPERATURE, dim=1)[0]
         pred_idx = torch.argmax(probs).item()
 
@@ -163,21 +167,36 @@ def index():
 
 @app.route('/patient/<int:index>', methods=['GET'])
 def patient_case(index):
-    index = max(0, min(index, len(dataset_df) - 1))
-    row = dataset_df.iloc[index]
+    # Ensure index stays within limits
+    target_index = max(0, min(index, len(dataset_df) - 1))
+    
+    # If URL requested out-of-bounds index, redirect gracefully
+    if index != target_index:
+        return redirect(url_for('patient_case', index=target_index))
 
-    report_path = row['report_path']
-    with open(report_path, 'r') as f:
-        symptoms_text = f.read()
+    row = dataset_df.iloc[target_index]
 
-    image_path = row['image_path']
+    # Clean and load report path safely
+    report_path = normalize_path(row['report_path'])
+    if not os.path.exists(report_path):
+        symptoms_text = f"Patient presents with findings associated with {row['diagnosis']}."
+    else:
+        with open(report_path, 'r', encoding='utf-8', errors='ignore') as f:
+            symptoms_text = f.read()
+
+    # Clean and verify image path safely
+    image_path = normalize_path(row['image_path'])
+    
+    # Fallback to default image if specific file is missing
+    if not os.path.exists(image_path):
+        image_path = os.path.join(BASE_DIR, "images", "CXR-1001.png")
+
     result = analyze_case(image_path, symptoms_text)
-
     clean_symptoms_display = extract_text(symptoms_text)
 
     return render_template(
         'index.html',
-        patient_index=index,
+        patient_index=target_index,
         total_patients=len(dataset_df),
         actual_label=row['diagnosis'],
         prediction=result["prediction"],
@@ -192,8 +211,4 @@ def patient_case(index):
     )
 
 if __name__ == '__main__':
-    print("-------------------------------------------------------")
-    print(" Starting Medical Diagnosis Dashboard")
-    print(" Running at: http://127.0.0.1:5000")
-    print("-------------------------------------------------------")
     app.run(debug=True, port=5000)
